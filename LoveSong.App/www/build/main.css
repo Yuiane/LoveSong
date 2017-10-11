@@ -22281,11 +22281,12 @@ page-welcome .bg {
 
 page-welcome .tb_skip {
   position: fixed;
-  top: 5%;
+  top: 3%;
 }
 
 page-welcome .tb_skip .button-inner {
   color: white;
+  font-size: 1.4rem;
 }
 
 page-welcome .toolbar-background-md {
@@ -22317,4 +22318,65 @@ page-welcome .bg03 {
 
 page-welcome .bg04 {
   background-image: url(../assets/image/bg04.jpg);
+}
+
+page-welcome .swiper-slide img.logo {
+  width: 180px;
+  height: 180px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-animation: fadeInUp 1s ease 1s 1 normal both;
+  animation: fadeInUp 1s ease 1s 1 normal both;
+}
+
+page-welcome .swiper-slide img.title {
+  width: 90%;
+  position: fixed;
+  top: 180px;
+  left: 5%;
+  -webkit-animation: fadeInDown 1s ease 1s 1 normal both;
+  animation: fadeInDown 1s ease 1s 1 normal both;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -200px, 0);
+    transform: translate3d(0, -200px, 0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -200px, 0);
+    transform: translate3d(0, -200px, 0);
+  }
+}
+
+page-welcome .fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 200px, 0);
+    transform: translate3d(0, 200px, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 200px, 0);
+    transform: translate3d(0, 200px, 0);
+  }
+}
+
+page-welcome .fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
 }

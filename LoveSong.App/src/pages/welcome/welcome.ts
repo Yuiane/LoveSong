@@ -20,6 +20,6 @@ export class welcomePage {
         console.log('ionViewDidLoad welcomePage');
     }
     goToHome() {
-        this.navCtrl.setRoot(HomePage);
+        this.navCtrl.push(HomePage);
     }
 }
