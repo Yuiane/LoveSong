@@ -1,0 +1,47 @@
+﻿page-welcome {
+    .bg {
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .tb_skip {
+        position: fixed;
+        top: 5%;
+    }
+
+    .tb_skip .button-inner {
+        color: white;
+    }
+
+    .toolbar-background-md {
+        background: none;
+    }
+
+    .btnStart {
+        border-radius: 100% !important;
+        position: fixed;
+        top: 10%;
+        width: 100px;
+        height: 100px;
+        left: 50%;
+        font-size: 1.6rem;
+        margin-left: -50px;
+    }
+
+    .bg01 {
+        background-image: url(../assets/image/bg01.jpg);
+    }
+
+    .bg02 {
+        background-image: url(../assets/image/bg02.jpg);
+    }
+
+    .bg03 {
+        background-image: url(../assets/image/bg03.jpg);
+    }
+
+    .bg04 {
+        background-image: url(../assets/image/bg04.jpg);
+    }
+}
