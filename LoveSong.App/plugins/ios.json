@@ -1,0 +1,30 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "ting.shuo.yuiane"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "ting.shuo.yuiane"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "ting.shuo.yuiane"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "ting.shuo.yuiane"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "ting.shuo.yuiane"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "ting.shuo.yuiane"
+        }
+    },
+    "dependent_plugins": {}
+}

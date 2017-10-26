@@ -1,49 +1,156 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
+﻿<ion-header>
+    <ion-toolbar color="danger">
+        <ion-buttons start>
+            <ion-icon name="search" color="white"></ion-icon>
+        </ion-buttons>
+        <ion-toolbar>
+            <ion-title text-center>听说</ion-title>
+        </ion-toolbar>
+        <ion-buttons end>
+            <ion-icon name="more" color="white"></ion-icon>
+        </ion-buttons>
+    </ion-toolbar>
 </ion-header>
-
-<ion-content padding>
-
-    <h2 class="center">Ionic Tabs Starter</h2>
-
-   <div class="center">
-        <p class="ionic-logo"></p>
-    </div>
-
+<ion-content class="cards-bg">
     <ion-card>
-        <ion-card-header>
-            Docs are here to help
-        </ion-card-header>
-
-        <ion-list>
-            <button ion-item (click)="onLink('http://go.microsoft.com/fwlink/?LinkID=820516')">
-                <ion-icon name="jet" item-left></ion-icon>
-                Getting Started
-            </button>
-
-            <button ion-item (click)="onLink('http://go.microsoft.com/fwlink/?LinkID=820761')">
-                <ion-icon name="ionic" item-left></ion-icon>
-                Ionic Framework
-            </button>
-
-            <button ion-item (click)="onLink('http://go.microsoft.com/fwlink/?LinkID=820520')">
-                <ion-icon name="thunderstorm" item-left></ion-icon>
-                Azure Services
-            </button>
-
-            <button ion-item (click)="onLink('http://go.microsoft.com/fwlink/?LinkID=820524')">
-                <ion-icon name="cafe" item-left></ion-icon>
-                Plugins Support
-            </button>
-
-            <button ion-item (click)="onLink('http://go.microsoft.com/fwlink/?LinkID=820526')">
-                <ion-icon name="paw" item-left></ion-icon>
-                Troubleshooting
-            </button>
-        </ion-list>
-        
+        <img src="assets/image/nin-live.png" />
+        <ion-card-content>
+            <ion-card-title>
+                你只活了1天,却重复了364遍
+            </ion-card-title>
+            <p>
+                一年到头，你发现你的一年，不过是活了1天，然后重复了364遍。
+                你列了书单，决定一个月读十本书，却在打开第一本书的时候，看了两页就昏昏欲睡。
+            </p>
+        </ion-card-content>
+        <ion-row no-padding>
+            <ion-col>
+                <button ion-button clear small color="danger" icon-start>
+                    <ion-icon name='star'></ion-icon>
+                    &nbsp;&nbsp;收藏
+                </button>
+            </ion-col>
+            <ion-col text-center>
+                <button ion-button clear small color="danger" icon-start>
+                    <ion-icon name='musical-notes'></ion-icon>
+                    &nbsp;&nbsp;收听
+                </button>
+            </ion-col>
+            <ion-col text-right>
+                <button ion-button clear small color="danger" icon-start>
+                    <ion-icon name='share-alt'></ion-icon>
+                    &nbsp;&nbsp;分享
+                </button>
+            </ion-col>
+        </ion-row>
     </ion-card>
-
+    <ion-card>
+        <div>
+            <img src="assets/image/badu-live.png" />
+        </div>
+        <ion-card-content>
+            <ion-card-title>
+                一个人熬过了 所有的苦
+            </ion-card-title>
+            <p>
+                长大后的世界不像童话里写的那样自由快活，现实生活里接踵而来的压力会让我们喘不过气来，
+                可是大部分人不都是这样过来的吗？
+                会苦会累，可还得继续活下去。
+            </p>
+        </ion-card-content>
+        <ion-row no-padding>
+            <ion-col>
+                <button ion-button clear small color="danger" icon-start>
+                    <ion-icon name='star'></ion-icon>
+                    &nbsp;&nbsp;收藏
+                </button>
+            </ion-col>
+            <ion-col text-center>
+                <button ion-button clear small color="danger" icon-start>
+                    <ion-icon name='musical-notes'></ion-icon>
+                    &nbsp;&nbsp;收听
+                </button>
+            </ion-col>
+            <ion-col text-right>
+                <button ion-button clear small color="danger" icon-start>
+                    <ion-icon name='share-alt'></ion-icon>
+                    &nbsp;&nbsp;分享
+                </button>
+            </ion-col>
+        </ion-row>
+    </ion-card>
+    <ion-card>
+        <div>
+            <img src="assets/image/queen-live.png" />
+        </div>
+        <ion-card-content>
+            <ion-card-title>
+                他秒回你≠他很在乎你≠他喜欢你
+            </ion-card-title>
+            <p>
+                当一艘船沉入海底，当一个人成了谜……”每次我发短信给他，得不到回复的时候，我都会唱这首歌。
+                然后给对方找各种没及时回复的理由，没看到，正在忙……可是几个小时之后，看到对方在朋友圈分享了一篇文章，
+                仍然没有回复我的消息，大概就能明白，对方是真的不想跟我聊天。
+            </p>
+        </ion-card-content>
+        <ion-row no-padding>
+            <ion-col>
+                <button ion-button clear small color="danger" icon-start>
+                    <ion-icon name='star'></ion-icon>
+                    &nbsp;&nbsp;收藏
+                </button>
+            </ion-col>
+            <ion-col text-center>
+                <button ion-button clear small color="danger" icon-start>
+                    <ion-icon name='musical-notes'></ion-icon>
+                    &nbsp;&nbsp;收听
+                </button>
+            </ion-col>
+            <ion-col text-right>
+                <button ion-button clear small color="danger" icon-start>
+                    <ion-icon name='share-alt'></ion-icon>
+                    &nbsp;&nbsp;分享
+                </button>
+            </ion-col>
+        </ion-row>
+    </ion-card>
+    <ion-card>
+        <div>
+            <img src="assets/image/rundmc-live.png" />
+        </div>
+        <ion-card-content>
+            <ion-card-title>
+                不等了
+            </ion-card-title>
+            <p>
+                我很想等你，可是我，<br />不能再彻夜不睡的等你发来的消息了。<br />
+                我想等你，<br />可是我不想等你偶尔才给我的一丝关心了。<br />
+                我想，是时候我不等了。<br />
+                我一直在等待中等待，可时间从来没有给过我时间。<br />
+                有人说等一个不爱你的人，就好像在机场等一艘船，无论是等多久都等不到自己想要的答案。<br /><br />
+                明知道没有结果，却还是固执的不肯放弃，这不是伟大而是太傻。而有的时候，执着不是因为深爱，而仅仅是因为不甘心。<br />
+                所以也许，你不是在等他爱你，你是在等你自己放弃。
+            </p>
+        </ion-card-content>
+        <ion-row no-padding>
+            <ion-col>
+                <button ion-button clear small color="danger" icon-start>
+                    <ion-icon name='star'></ion-icon>
+                    &nbsp;&nbsp;收藏
+                </button>
+            </ion-col>
+            <ion-col text-center>
+                <button ion-button clear small color="danger" icon-start>
+                    <ion-icon name='musical-notes'></ion-icon>
+                    &nbsp;&nbsp;收听
+                </button>
+            </ion-col>
+            <ion-col text-right>
+                <button ion-button clear small color="danger" icon-start>
+                    <ion-icon name='share-alt'></ion-icon>
+                    &nbsp;&nbsp;分享
+                </button>
+            </ion-col>
+        </ion-row>
+    </ion-card>
 </ion-content>

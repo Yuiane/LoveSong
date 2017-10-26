@@ -22274,7 +22274,6 @@ page-home .ionic-logo:before {
 }
 
 page-welcome .bg {
-  background-position: left top;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -22282,6 +22281,7 @@ page-welcome .bg {
 page-welcome .tb_skip {
   position: fixed;
   top: 3%;
+  background: none;
 }
 
 page-welcome .tb_skip .button-inner {
@@ -22289,13 +22289,13 @@ page-welcome .tb_skip .button-inner {
   font-size: 1.4rem;
 }
 
-page-welcome .toolbar-background-md {
+page-welcome .toolbar-background {
   background: none;
 }
 
 page-welcome .btnStart {
   border-radius: 100% !important;
-  position: fixed;
+  position: absolute;
   top: 10%;
   width: 100px;
   height: 100px;

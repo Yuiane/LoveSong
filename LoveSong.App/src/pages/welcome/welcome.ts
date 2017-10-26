@@ -1,6 +1,6 @@
 ﻿import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { HomePage } from '../home/home';
+import { TabsPage } from '../tabs/tabs';
 
 /*
   Generated class for the welcome page.
@@ -20,6 +20,6 @@ export class welcomePage {
         console.log('ionViewDidLoad welcomePage');
     }
     goToHome() {
-        this.navCtrl.push(HomePage);
+        this.navCtrl.setRoot(TabsPage);
     }
 }

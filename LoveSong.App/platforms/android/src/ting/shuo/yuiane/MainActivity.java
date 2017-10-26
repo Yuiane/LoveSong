@@ -17,7 +17,7 @@
        under the License.
  */
 
-package io.cordova.myapp284f83;
+package ting.shuo.yuiane;
 
 import android.os.Bundle;
 import org.apache.cordova.*;

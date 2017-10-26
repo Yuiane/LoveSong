@@ -1,6 +1,5 @@
 ﻿page-welcome {
     .bg {
-        background-position: left top;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -8,6 +7,7 @@
     .tb_skip {
         position: fixed;
         top: 3%;
+        background: none;
     }
 
     .tb_skip .button-inner {
@@ -15,13 +15,13 @@
         font-size: 1.4rem;
     }
 
-    .toolbar-background-md {
+    .toolbar-background {
         background: none;
     }
 
     .btnStart {
         border-radius: 100% !important;
-        position: fixed;
+        position: absolute;
         top: 10%;
         width: 100px;
         height: 100px;
